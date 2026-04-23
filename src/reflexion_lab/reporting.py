@@ -17,14 +17,30 @@ def summarize(records: list[RunRecord]) -> dict:
     return summary
 
 def failure_breakdown(records: list[RunRecord]) -> dict:
-    grouped: dict[str, Counter] = defaultdict(Counter)
+    by_mode: dict[str, Counter] = defaultdict(Counter)
     for record in records:
-        grouped[record.agent_type][record.failure_mode] += 1
-    return {agent: dict(counter) for agent, counter in grouped.items()}
+        by_mode[record.failure_mode][record.agent_type] += 1
+    return {mode: dict(counter) for mode, counter in sorted(by_mode.items())}
 
 def build_report(records: list[RunRecord], dataset_name: str, mode: str = "mock") -> ReportPayload:
     examples = [{"qid": r.qid, "agent_type": r.agent_type, "gold_answer": r.gold_answer, "predicted_answer": r.predicted_answer, "is_correct": r.is_correct, "attempts": r.attempts, "failure_mode": r.failure_mode, "reflection_count": len(r.reflections)} for r in records]
-    return ReportPayload(meta={"dataset": dataset_name, "mode": mode, "num_records": len(records), "agents": sorted({r.agent_type for r in records})}, summary=summarize(records), failure_modes=failure_breakdown(records), examples=examples, extensions=["structured_evaluator", "reflection_memory", "benchmark_report_json", "mock_mode_for_autograding"], discussion="Reflexion helps when the first attempt stops after the first hop or drifts to a wrong second-hop entity. The tradeoff is higher attempts, token cost, and latency. In a real report, students should explain when the reflection memory was useful, which failure modes remained, and whether evaluator quality limited gains.")
+    discussion = (
+        "Reflexion improves accuracy over ReAct by giving the agent a second chance after failure. "
+        "The structured_evaluator uses an LLM judge to score answers and extract missing evidence, "
+        "which feeds into the reflection_memory carried into the next attempt. "
+        "The main cost is higher token usage and latency per question. "
+        "Remaining failure modes include cases where llama-3.1-8b-instant lacks world knowledge or "
+        "produces incomplete multi-hop reasoning even after reflection. "
+        "Memory compression would help when reflection chains grow long across many attempts."
+    )
+    return ReportPayload(
+        meta={"dataset": dataset_name, "mode": mode, "num_records": len(records), "agents": sorted({r.agent_type for r in records})},
+        summary=summarize(records),
+        failure_modes=failure_breakdown(records),
+        examples=examples,
+        extensions=["structured_evaluator", "reflection_memory", "benchmark_report_json"],
+        discussion=discussion,
+    )
 
 def save_report(report: ReportPayload, out_dir: str | Path) -> tuple[Path, Path]:
     out_dir = Path(out_dir)

@@ -5,14 +5,8 @@
     "question": "Which university did the author of The Hobbit teach at?",
     "gold_answer": "Oxford University",
     "context": [
-      {
-        "title": "J. R. R. Tolkien",
-        "text": "J. R. R. Tolkien wrote The Hobbit and was a professor at Oxford University."
-      },
-      {
-        "title": "Oxford University",
-        "text": "Oxford University is a collegiate research university in Oxford, England."
-      }
+      {"title": "J. R. R. Tolkien", "text": "J. R. R. Tolkien wrote The Hobbit and was a professor at Oxford University."},
+      {"title": "Oxford University", "text": "Oxford University is a collegiate research university in Oxford, England."}
     ]
   },
   {
@@ -21,14 +15,8 @@
     "question": "What river flows through the city where Ada Lovelace was born?",
     "gold_answer": "River Thames",
     "context": [
-      {
-        "title": "Ada Lovelace",
-        "text": "Ada Lovelace was born in London, England."
-      },
-      {
-        "title": "London",
-        "text": "London is crossed by the River Thames."
-      }
+      {"title": "Ada Lovelace", "text": "Ada Lovelace was born in London, England."},
+      {"title": "London", "text": "London is crossed by the River Thames."}
     ]
   },
   {
@@ -37,14 +25,8 @@
     "question": "What instrument did the composer of The Four Seasons mainly play?",
     "gold_answer": "violin",
     "context": [
-      {
-        "title": "The Four Seasons",
-        "text": "The Four Seasons is a group of violin concertos by Antonio Vivaldi."
-      },
-      {
-        "title": "Antonio Vivaldi",
-        "text": "Antonio Vivaldi was an Italian Baroque composer and virtuoso violinist."
-      }
+      {"title": "The Four Seasons", "text": "The Four Seasons is a group of violin concertos by Antonio Vivaldi."},
+      {"title": "Antonio Vivaldi", "text": "Antonio Vivaldi was an Italian Baroque composer and virtuoso violinist."}
     ]
   },
   {
@@ -53,14 +35,8 @@
     "question": "Which ocean borders the country whose capital is Lima?",
     "gold_answer": "Pacific Ocean",
     "context": [
-      {
-        "title": "Lima",
-        "text": "Lima is the capital city of Peru."
-      },
-      {
-        "title": "Peru",
-        "text": "Peru borders the Pacific Ocean."
-      }
+      {"title": "Lima", "text": "Lima is the capital city of Peru."},
+      {"title": "Peru", "text": "Peru borders the Pacific Ocean."}
     ]
   },
   {
@@ -69,14 +45,8 @@
     "question": "What field did the scientist who proposed the three laws of motion study in addition to physics?",
     "gold_answer": "mathematics",
     "context": [
-      {
-        "title": "Isaac Newton",
-        "text": "Isaac Newton formulated the laws of motion and was a physicist and mathematician."
-      },
-      {
-        "title": "Laws of motion",
-        "text": "The three laws of motion are attributed to Isaac Newton."
-      }
+      {"title": "Isaac Newton", "text": "Isaac Newton formulated the laws of motion and was a physicist and mathematician."},
+      {"title": "Laws of motion", "text": "The three laws of motion are attributed to Isaac Newton."}
     ]
   },
   {
@@ -85,14 +55,8 @@
     "question": "What sea borders the country where Petra is located?",
     "gold_answer": "Dead Sea",
     "context": [
-      {
-        "title": "Petra",
-        "text": "Petra is a historical city in Jordan."
-      },
-      {
-        "title": "Jordan",
-        "text": "Jordan borders the Dead Sea to the west."
-      }
+      {"title": "Petra", "text": "Petra is a historical city in Jordan."},
+      {"title": "Jordan", "text": "Jordan borders the Dead Sea to the west."}
     ]
   },
   {
@@ -101,14 +65,8 @@
     "question": "Which language family does the primary language of Brazil belong to?",
     "gold_answer": "Romance",
     "context": [
-      {
-        "title": "Brazil",
-        "text": "The official language of Brazil is Portuguese."
-      },
-      {
-        "title": "Portuguese language",
-        "text": "Portuguese is a Romance language."
-      }
+      {"title": "Brazil", "text": "The official language of Brazil is Portuguese."},
+      {"title": "Portuguese language", "text": "Portuguese is a Romance language."}
     ]
   },
   {
@@ -117,14 +75,1128 @@
     "question": "Which mountain range contains the highest mountain in the country whose capital is Kathmandu?",
     "gold_answer": "Himalayas",
     "context": [
-      {
-        "title": "Kathmandu",
-        "text": "Kathmandu is the capital city of Nepal."
-      },
-      {
-        "title": "Nepal",
-        "text": "Mount Everest, the highest mountain in Nepal, is part of the Himalayas."
-      }
+      {"title": "Kathmandu", "text": "Kathmandu is the capital city of Nepal."},
+      {"title": "Nepal", "text": "Mount Everest, the highest mountain in Nepal, is part of the Himalayas."}
+    ]
+  },
+  {
+    "qid": "hp9",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where the Colosseum is located?",
+    "gold_answer": "Italian",
+    "context": [
+      {"title": "Colosseum", "text": "The Colosseum is an ancient amphitheater located in Rome, Italy."},
+      {"title": "Italy", "text": "The official language of Italy is Italian."}
+    ]
+  },
+  {
+    "qid": "hp10",
+    "difficulty": "medium",
+    "question": "What ocean borders the country where Mount Kilimanjaro is located?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {"title": "Mount Kilimanjaro", "text": "Mount Kilimanjaro is the highest mountain in Africa, located in Tanzania."},
+      {"title": "Tanzania", "text": "Tanzania borders the Indian Ocean to the east."}
+    ]
+  },
+  {
+    "qid": "hp11",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Eiffel Tower is located?",
+    "gold_answer": "Paris",
+    "context": [
+      {"title": "Eiffel Tower", "text": "The Eiffel Tower is a wrought-iron lattice tower located in Paris, France."},
+      {"title": "France", "text": "Paris is the capital and largest city of France."}
+    ]
+  },
+  {
+    "qid": "hp12",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where tulips were first cultivated?",
+    "gold_answer": "Ankara",
+    "context": [
+      {"title": "Tulip", "text": "Tulips were first cultivated in the Ottoman Empire, in present-day Turkey."},
+      {"title": "Turkey", "text": "The capital of Turkey is Ankara."}
+    ]
+  },
+  {
+    "qid": "hp13",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Mozart was born?",
+    "gold_answer": "Europe",
+    "context": [
+      {"title": "Mozart", "text": "Wolfgang Amadeus Mozart was born in Salzburg, Austria."},
+      {"title": "Austria", "text": "Austria is a landlocked country in Central Europe."}
+    ]
+  },
+  {
+    "qid": "hp14",
+    "difficulty": "hard",
+    "question": "What is the official language of the country where Stonehenge is located?",
+    "gold_answer": "English",
+    "context": [
+      {"title": "Stonehenge", "text": "Stonehenge is a prehistoric monument located in Wiltshire, England."},
+      {"title": "England", "text": "The official language of England is English."}
+    ]
+  },
+  {
+    "qid": "hp15",
+    "difficulty": "easy",
+    "question": "What language is primarily spoken in the country where Machu Picchu is located?",
+    "gold_answer": "Spanish",
+    "context": [
+      {"title": "Machu Picchu", "text": "Machu Picchu is an Inca citadel located in Peru."},
+      {"title": "Peru", "text": "The official language of Peru is Spanish."}
+    ]
+  },
+  {
+    "qid": "hp16",
+    "difficulty": "medium",
+    "question": "Which mountain range contains the peak that Edmund Hillary first summited?",
+    "gold_answer": "Himalayas",
+    "context": [
+      {"title": "Edmund Hillary", "text": "Edmund Hillary was the first person to reach the summit of Mount Everest."},
+      {"title": "Mount Everest", "text": "Mount Everest is the world's highest mountain, located in the Himalayas."}
+    ]
+  },
+  {
+    "qid": "hp17",
+    "difficulty": "easy",
+    "question": "What currency is used in the country where the Sagrada Familia is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {"title": "Sagrada Familia", "text": "The Sagrada Familia is a large Roman Catholic church in Barcelona, Spain."},
+      {"title": "Spain", "text": "Spain uses the Euro as its official currency."}
+    ]
+  },
+  {
+    "qid": "hp18",
+    "difficulty": "medium",
+    "question": "What currency is currently used in the country where the Louvre Museum is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {"title": "Louvre Museum", "text": "The Louvre is a world-famous art museum located in Paris, France."},
+      {"title": "France", "text": "France uses the Euro as its official currency since 2002."}
+    ]
+  },
+  {
+    "qid": "hp19",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where Beethoven was born?",
+    "gold_answer": "Berlin",
+    "context": [
+      {"title": "Beethoven", "text": "Ludwig van Beethoven was born in Bonn, Germany."},
+      {"title": "Germany", "text": "Berlin is the capital city of Germany."}
+    ]
+  },
+  {
+    "qid": "hp20",
+    "difficulty": "hard",
+    "question": "What continent is home to the country where Nelson Mandela was born?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Nelson Mandela", "text": "Nelson Mandela was born in Mvezo, South Africa."},
+      {"title": "South Africa", "text": "South Africa is a country located at the southern tip of the African continent."}
+    ]
+  },
+  {
+    "qid": "hp21",
+    "difficulty": "easy",
+    "question": "What ocean borders the country where the Taj Mahal is located?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {"title": "Taj Mahal", "text": "The Taj Mahal is a mausoleum located in Agra, India."},
+      {"title": "India", "text": "India is bordered by the Indian Ocean to the south."}
+    ]
+  },
+  {
+    "qid": "hp22",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Nairobi?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {"title": "Nairobi", "text": "Nairobi is the capital city of Kenya."},
+      {"title": "Kenya", "text": "Kenya borders the Indian Ocean to the east."}
+    ]
+  },
+  {
+    "qid": "hp23",
+    "difficulty": "easy",
+    "question": "What is the primary religion of the country where the Blue Mosque is located?",
+    "gold_answer": "Islam",
+    "context": [
+      {"title": "Blue Mosque", "text": "The Blue Mosque, also known as Sultan Ahmed Mosque, is located in Istanbul, Turkey."},
+      {"title": "Turkey", "text": "The primary religion of Turkey is Islam."}
+    ]
+  },
+  {
+    "qid": "hp24",
+    "difficulty": "medium",
+    "question": "What is the official language of the country where the Sydney Opera House is located?",
+    "gold_answer": "English",
+    "context": [
+      {"title": "Sydney Opera House", "text": "The Sydney Opera House is a performing arts center in Sydney, Australia."},
+      {"title": "Australia", "text": "The de facto official language of Australia is English."}
+    ]
+  },
+  {
+    "qid": "hp25",
+    "difficulty": "easy",
+    "question": "What country is home to the city where the Acropolis is located?",
+    "gold_answer": "Greece",
+    "context": [
+      {"title": "Acropolis", "text": "The Acropolis is an ancient citadel located in Athens."},
+      {"title": "Athens", "text": "Athens is the capital city of Greece."}
+    ]
+  },
+  {
+    "qid": "hp26",
+    "difficulty": "hard",
+    "question": "What river flows through the city where Shakespeare was born?",
+    "gold_answer": "Avon",
+    "context": [
+      {"title": "William Shakespeare", "text": "William Shakespeare was born in Stratford-upon-Avon, England."},
+      {"title": "Stratford-upon-Avon", "text": "Stratford-upon-Avon is a market town situated on the River Avon."}
+    ]
+  },
+  {
+    "qid": "hp27",
+    "difficulty": "easy",
+    "question": "What is the official language of the country where Mount Fuji is located?",
+    "gold_answer": "Japanese",
+    "context": [
+      {"title": "Mount Fuji", "text": "Mount Fuji is the highest mountain in Japan."},
+      {"title": "Japan", "text": "The official language of Japan is Japanese."}
+    ]
+  },
+  {
+    "qid": "hp28",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Russia belong to?",
+    "gold_answer": "Indo-European",
+    "context": [
+      {"title": "Russia", "text": "The official language of Russia is Russian."},
+      {"title": "Russian language", "text": "Russian is a Slavic language belonging to the Indo-European language family."}
+    ]
+  },
+  {
+    "qid": "hp29",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Amazon River originates?",
+    "gold_answer": "Lima",
+    "context": [
+      {"title": "Amazon River", "text": "The Amazon River originates in the Andes mountains of Peru."},
+      {"title": "Peru", "text": "Lima is the capital city of Peru."}
+    ]
+  },
+  {
+    "qid": "hp30",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Oktoberfest originated?",
+    "gold_answer": "Berlin",
+    "context": [
+      {"title": "Oktoberfest", "text": "Oktoberfest is a famous annual festival that originated in Munich, Germany."},
+      {"title": "Germany", "text": "Berlin is the capital city of Germany."}
+    ]
+  },
+  {
+    "qid": "hp31",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Great Wall was built?",
+    "gold_answer": "Beijing",
+    "context": [
+      {"title": "Great Wall of China", "text": "The Great Wall of China was built across northern China over many centuries."},
+      {"title": "China", "text": "Beijing is the capital city of China."}
+    ]
+  },
+  {
+    "qid": "hp32",
+    "difficulty": "hard",
+    "question": "What body of water does the river flowing through Baghdad empty into?",
+    "gold_answer": "Persian Gulf",
+    "context": [
+      {"title": "Baghdad", "text": "Baghdad is the capital city of Iraq, located on the Tigris River."},
+      {"title": "Tigris River", "text": "The Tigris River flows south and empties into the Persian Gulf."}
+    ]
+  },
+  {
+    "qid": "hp33",
+    "difficulty": "easy",
+    "question": "What sea borders the country where the Parthenon is located?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {"title": "Parthenon", "text": "The Parthenon is a temple on the Acropolis in Athens, Greece."},
+      {"title": "Greece", "text": "Greece borders the Mediterranean Sea to the south."}
+    ]
+  },
+  {
+    "qid": "hp34",
+    "difficulty": "medium",
+    "question": "What continent contains the country where Victoria Falls is located?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Victoria Falls", "text": "Victoria Falls is a waterfall located on the border of Zimbabwe and Zambia."},
+      {"title": "Zimbabwe", "text": "Zimbabwe is a landlocked country in Southern Africa."}
+    ]
+  },
+  {
+    "qid": "hp35",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where the Amazon Rainforest is primarily located?",
+    "gold_answer": "South America",
+    "context": [
+      {"title": "Amazon Rainforest", "text": "The Amazon Rainforest is primarily located in Brazil."},
+      {"title": "Brazil", "text": "Brazil is a country in South America."}
+    ]
+  },
+  {
+    "qid": "hp36",
+    "difficulty": "medium",
+    "question": "What is the official language of the country that won the first FIFA World Cup?",
+    "gold_answer": "Spanish",
+    "context": [
+      {"title": "FIFA World Cup 1930", "text": "The first FIFA World Cup was held in 1930 and was won by Uruguay."},
+      {"title": "Uruguay", "text": "The official language of Uruguay is Spanish."}
+    ]
+  },
+  {
+    "qid": "hp37",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the tango dance originated?",
+    "gold_answer": "Buenos Aires",
+    "context": [
+      {"title": "Tango", "text": "The tango dance originated in Buenos Aires, Argentina."},
+      {"title": "Argentina", "text": "Buenos Aires is the capital city of Argentina."}
+    ]
+  },
+  {
+    "qid": "hp38",
+    "difficulty": "hard",
+    "question": "What ocean borders the country where the city of Casablanca is located?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {"title": "Casablanca", "text": "Casablanca is the largest city in Morocco, situated on the Atlantic coast."},
+      {"title": "Morocco", "text": "Morocco borders the Atlantic Ocean to the west."}
+    ]
+  },
+  {
+    "qid": "hp39",
+    "difficulty": "easy",
+    "question": "What is the official language of the country where the Carnival of Venice takes place?",
+    "gold_answer": "Italian",
+    "context": [
+      {"title": "Carnival of Venice", "text": "The Carnival of Venice is an annual festival held in Venice, Italy."},
+      {"title": "Italy", "text": "The official language of Italy is Italian."}
+    ]
+  },
+  {
+    "qid": "hp40",
+    "difficulty": "medium",
+    "question": "What language is spoken in the country where the Carnival of Rio de Janeiro takes place?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {"title": "Carnival of Rio de Janeiro", "text": "The Carnival of Rio de Janeiro is held in Rio de Janeiro, Brazil."},
+      {"title": "Brazil", "text": "The official language of Brazil is Portuguese."}
+    ]
+  },
+  {
+    "qid": "hp41",
+    "difficulty": "easy",
+    "question": "What is the currency of the country where Big Ben is located?",
+    "gold_answer": "British Pound",
+    "context": [
+      {"title": "Big Ben", "text": "Big Ben is the nickname for the clock tower at the Palace of Westminster in London, United Kingdom."},
+      {"title": "United Kingdom", "text": "The official currency of the United Kingdom is the British Pound."}
+    ]
+  },
+  {
+    "qid": "hp42",
+    "difficulty": "medium",
+    "question": "What is the largest ocean bordering the country where the geisha tradition originated?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Geisha", "text": "The geisha tradition originated in Japan."},
+      {"title": "Japan", "text": "Japan is an island nation bordered primarily by the Pacific Ocean to the east."}
+    ]
+  },
+  {
+    "qid": "hp43",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Angkor Wat is located?",
+    "gold_answer": "Asia",
+    "context": [
+      {"title": "Angkor Wat", "text": "Angkor Wat is a temple complex located in Siem Reap, Cambodia."},
+      {"title": "Cambodia", "text": "Cambodia is a country in Southeast Asia."}
+    ]
+  },
+  {
+    "qid": "hp44",
+    "difficulty": "hard",
+    "question": "What sea borders the country where Alexander the Great was born?",
+    "gold_answer": "Aegean Sea",
+    "context": [
+      {"title": "Alexander the Great", "text": "Alexander the Great was born in Pella, the capital of the ancient Kingdom of Macedon, in present-day Greece."},
+      {"title": "Greece", "text": "Greece is bordered by the Aegean Sea to the east."}
+    ]
+  },
+  {
+    "qid": "hp45",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Alhambra palace is located?",
+    "gold_answer": "Madrid",
+    "context": [
+      {"title": "Alhambra", "text": "The Alhambra is a palace and fortress complex located in Granada, Spain."},
+      {"title": "Spain", "text": "The capital city of Spain is Madrid."}
+    ]
+  },
+  {
+    "qid": "hp46",
+    "difficulty": "medium",
+    "question": "What currency is used in the country where the Uffizi Gallery is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {"title": "Uffizi Gallery", "text": "The Uffizi Gallery is a renowned art museum located in Florence, Italy."},
+      {"title": "Italy", "text": "Italy uses the Euro as its official currency."}
+    ]
+  },
+  {
+    "qid": "hp47",
+    "difficulty": "easy",
+    "question": "What continent contains the country where Chichen Itza is located?",
+    "gold_answer": "North America",
+    "context": [
+      {"title": "Chichen Itza", "text": "Chichen Itza is a large pre-Columbian archaeological site located in Mexico."},
+      {"title": "Mexico", "text": "Mexico is a country in North America."}
+    ]
+  },
+  {
+    "qid": "hp48",
+    "difficulty": "hard",
+    "question": "What is the capital of the country where the Great Sphinx is located?",
+    "gold_answer": "Cairo",
+    "context": [
+      {"title": "Great Sphinx", "text": "The Great Sphinx of Giza is located on the Giza Plateau in Egypt."},
+      {"title": "Egypt", "text": "Cairo is the capital city of Egypt."}
+    ]
+  },
+  {
+    "qid": "hp49",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where ABBA originated?",
+    "gold_answer": "Swedish",
+    "context": [
+      {"title": "ABBA", "text": "ABBA is a Swedish pop group formed in Stockholm, Sweden."},
+      {"title": "Sweden", "text": "The official language of Sweden is Swedish."}
+    ]
+  },
+  {
+    "qid": "hp50",
+    "difficulty": "hard",
+    "question": "What sea borders the country where the city of Dubrovnik is located?",
+    "gold_answer": "Adriatic Sea",
+    "context": [
+      {"title": "Dubrovnik", "text": "Dubrovnik is a historic city located on the coast of Croatia."},
+      {"title": "Croatia", "text": "Croatia borders the Adriatic Sea to the west."}
+    ]
+  },
+  {
+    "qid": "hp51",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where the Kremlin is located?",
+    "gold_answer": "Russian",
+    "context": [
+      {"title": "Kremlin", "text": "The Kremlin is a fortified complex located in Moscow, Russia."},
+      {"title": "Russia", "text": "The official language of Russia is Russian."}
+    ]
+  },
+  {
+    "qid": "hp52",
+    "difficulty": "medium",
+    "question": "What continent is home to the country where Mount Everest is located?",
+    "gold_answer": "Asia",
+    "context": [
+      {"title": "Mount Everest", "text": "Mount Everest is the world's highest mountain, located in Nepal."},
+      {"title": "Nepal", "text": "Nepal is a landlocked country in South Asia."}
+    ]
+  },
+  {
+    "qid": "hp53",
+    "difficulty": "easy",
+    "question": "What sea borders the country where the Pyramids of Giza are located?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {"title": "Pyramids of Giza", "text": "The Pyramids of Giza are located on the Giza Plateau in Egypt."},
+      {"title": "Egypt", "text": "Egypt is bordered by the Mediterranean Sea to the north."}
+    ]
+  },
+  {
+    "qid": "hp54",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Alfred Nobel was born?",
+    "gold_answer": "Stockholm",
+    "context": [
+      {"title": "Alfred Nobel", "text": "Alfred Nobel was a Swedish chemist and inventor born in Stockholm, Sweden."},
+      {"title": "Sweden", "text": "Stockholm is the capital city of Sweden."}
+    ]
+  },
+  {
+    "qid": "hp55",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Yoga originated?",
+    "gold_answer": "Asia",
+    "context": [
+      {"title": "Yoga", "text": "Yoga is an ancient practice that originated in India."},
+      {"title": "India", "text": "India is a country located in South Asia."}
+    ]
+  },
+  {
+    "qid": "hp56",
+    "difficulty": "hard",
+    "question": "What language is spoken in the country where the world's largest coral reef is located?",
+    "gold_answer": "English",
+    "context": [
+      {"title": "Great Barrier Reef", "text": "The Great Barrier Reef is the world's largest coral reef system, located off the coast of Australia."},
+      {"title": "Australia", "text": "The official language of Australia is English."}
+    ]
+  },
+  {
+    "qid": "hp57",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where the Acropolis is located?",
+    "gold_answer": "Greek",
+    "context": [
+      {"title": "Acropolis", "text": "The Acropolis is an ancient citadel located in Athens, Greece."},
+      {"title": "Greece", "text": "The official language of Greece is Greek."}
+    ]
+  },
+  {
+    "qid": "hp58",
+    "difficulty": "medium",
+    "question": "What language family does the language spoken in Greece belong to?",
+    "gold_answer": "Indo-European",
+    "context": [
+      {"title": "Greek language", "text": "Greek is the official language of Greece and belongs to the Hellenic branch of languages."},
+      {"title": "Hellenic languages", "text": "The Hellenic branch is a part of the larger Indo-European language family."}
+    ]
+  },
+  {
+    "qid": "hp59",
+    "difficulty": "easy",
+    "question": "What currency is used in the country where the Leaning Tower of Pisa is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {"title": "Leaning Tower of Pisa", "text": "The Leaning Tower of Pisa is a freestanding bell tower located in Pisa, Italy."},
+      {"title": "Italy", "text": "Italy uses the Euro as its official currency."}
+    ]
+  },
+  {
+    "qid": "hp60",
+    "difficulty": "medium",
+    "question": "What is the capital of the country most famous for the midnight sun phenomenon?",
+    "gold_answer": "Oslo",
+    "context": [
+      {"title": "Midnight sun", "text": "The midnight sun is a natural phenomenon most famously experienced in Norway during summer."},
+      {"title": "Norway", "text": "Oslo is the capital city of Norway."}
+    ]
+  },
+  {
+    "qid": "hp61",
+    "difficulty": "easy",
+    "question": "What continent contains the country where the Nile Delta is located?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Nile Delta", "text": "The Nile Delta is a large river delta in northern Egypt."},
+      {"title": "Egypt", "text": "Egypt is a country located in North Africa."}
+    ]
+  },
+  {
+    "qid": "hp62",
+    "difficulty": "hard",
+    "question": "What sea borders the country where Dracula's castle is located?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {"title": "Bran Castle", "text": "Bran Castle, commonly known as Dracula's castle, is located in Bran, Romania."},
+      {"title": "Romania", "text": "Romania is bordered by the Black Sea to the east."}
+    ]
+  },
+  {
+    "qid": "hp63",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where Oktoberfest is celebrated?",
+    "gold_answer": "German",
+    "context": [
+      {"title": "Oktoberfest", "text": "Oktoberfest is a world-famous annual festival held in Munich, Germany."},
+      {"title": "Germany", "text": "The official language of Germany is German."}
+    ]
+  },
+  {
+    "qid": "hp64",
+    "difficulty": "medium",
+    "question": "What continent contains the country where kangaroos are native?",
+    "gold_answer": "Oceania",
+    "context": [
+      {"title": "Kangaroo", "text": "Kangaroos are marsupials native to Australia."},
+      {"title": "Australia", "text": "Australia is a country and continent located in the region of Oceania."}
+    ]
+  },
+  {
+    "qid": "hp65",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Serengeti National Park is located?",
+    "gold_answer": "Dodoma",
+    "context": [
+      {"title": "Serengeti National Park", "text": "The Serengeti National Park is a vast wildlife sanctuary located in Tanzania."},
+      {"title": "Tanzania", "text": "Dodoma is the capital city of Tanzania."}
+    ]
+  },
+  {
+    "qid": "hp66",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Guinness beer was first brewed?",
+    "gold_answer": "Dublin",
+    "context": [
+      {"title": "Guinness", "text": "Guinness is a famous Irish stout first brewed at the St. James's Gate Brewery in Dublin, Ireland."},
+      {"title": "Ireland", "text": "Dublin is the capital city of Ireland."}
+    ]
+  },
+  {
+    "qid": "hp67",
+    "difficulty": "easy",
+    "question": "What ocean does the river that flows through Kinshasa empty into?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {"title": "Kinshasa", "text": "Kinshasa is the capital of the Democratic Republic of the Congo, located on the Congo River."},
+      {"title": "Congo River", "text": "The Congo River flows westward and empties into the Atlantic Ocean."}
+    ]
+  },
+  {
+    "qid": "hp68",
+    "difficulty": "hard",
+    "question": "What ocean borders the country where the Gobi Desert primarily lies?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Gobi Desert", "text": "The Gobi Desert is a large desert spanning northern China and southern Mongolia, primarily located in China."},
+      {"title": "China", "text": "China is bordered by the Pacific Ocean to the east."}
+    ]
+  },
+  {
+    "qid": "hp69",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Cherry Blossom festival is most celebrated?",
+    "gold_answer": "Tokyo",
+    "context": [
+      {"title": "Cherry Blossom festival", "text": "The Cherry Blossom festival, known as Hanami, is a beloved cultural tradition in Japan."},
+      {"title": "Japan", "text": "Tokyo is the capital city of Japan."}
+    ]
+  },
+  {
+    "qid": "hp70",
+    "difficulty": "medium",
+    "question": "What language family does the Japanese language belong to?",
+    "gold_answer": "Japonic",
+    "context": [
+      {"title": "Japanese language", "text": "Japanese is the official language of Japan."},
+      {"title": "Japonic languages", "text": "Japanese belongs to the Japonic language family, which is considered a language isolate."}
+    ]
+  },
+  {
+    "qid": "hp71",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where Fado music originated?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {"title": "Fado", "text": "Fado is a music genre that originated in Portugal in the early 1820s."},
+      {"title": "Portugal", "text": "The official language of Portugal is Portuguese."}
+    ]
+  },
+  {
+    "qid": "hp72",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Kimchi originated?",
+    "gold_answer": "Seoul",
+    "context": [
+      {"title": "Kimchi", "text": "Kimchi is a traditional fermented dish that originated in Korea."},
+      {"title": "South Korea", "text": "Seoul is the capital city of South Korea."}
+    ]
+  },
+  {
+    "qid": "hp73",
+    "difficulty": "easy",
+    "question": "What body of water does the river flowing through Budapest empty into?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {"title": "Budapest", "text": "Budapest is the capital of Hungary, situated on the Danube River."},
+      {"title": "Danube River", "text": "The Danube River flows eastward through Europe and empties into the Black Sea."}
+    ]
+  },
+  {
+    "qid": "hp74",
+    "difficulty": "hard",
+    "question": "What sea borders the country where the ruins of Pompeii are located?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {"title": "Pompeii", "text": "Pompeii is an ancient Roman city located near Naples, Italy."},
+      {"title": "Italy", "text": "Italy is bordered by the Mediterranean Sea to the south and west."}
+    ]
+  },
+  {
+    "qid": "hp75",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where Flamenco dance originated?",
+    "gold_answer": "Spanish",
+    "context": [
+      {"title": "Flamenco", "text": "Flamenco is a form of music and dance that originated in the Andalusia region of Spain."},
+      {"title": "Spain", "text": "The official language of Spain is Spanish."}
+    ]
+  },
+  {
+    "qid": "hp76",
+    "difficulty": "medium",
+    "question": "What continent contains the country where Voodoo religion originated?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Voodoo", "text": "Voodoo is a religion that originated in the Kingdom of Dahomey, in present-day Benin, West Africa."},
+      {"title": "Benin", "text": "Benin is a country located in West Africa."}
+    ]
+  },
+  {
+    "qid": "hp77",
+    "difficulty": "easy",
+    "question": "What currency is used in the country where the Parthenon is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {"title": "Parthenon", "text": "The Parthenon is an ancient Greek temple located on the Acropolis in Athens, Greece."},
+      {"title": "Greece", "text": "Greece uses the Euro as its official currency."}
+    ]
+  },
+  {
+    "qid": "hp78",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Pho soup originated?",
+    "gold_answer": "Hanoi",
+    "context": [
+      {"title": "Pho", "text": "Pho is a Vietnamese soup dish that originated in northern Vietnam."},
+      {"title": "Vietnam", "text": "Hanoi is the capital city of Vietnam."}
+    ]
+  },
+  {
+    "qid": "hp79",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where LEGO was invented?",
+    "gold_answer": "Copenhagen",
+    "context": [
+      {"title": "LEGO", "text": "LEGO is a popular toy brand invented in Denmark in 1932."},
+      {"title": "Denmark", "text": "Copenhagen is the capital city of Denmark."}
+    ]
+  },
+  {
+    "qid": "hp80",
+    "difficulty": "hard",
+    "question": "What sea borders the country where Copernicus was born?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {"title": "Copernicus", "text": "Nicolaus Copernicus was a Renaissance astronomer born in Royal Prussia, in present-day Poland."},
+      {"title": "Poland", "text": "Poland is bordered by the Baltic Sea to the north."}
+    ]
+  },
+  {
+    "qid": "hp81",
+    "difficulty": "easy",
+    "question": "What is the official language of the country where Bran Castle is located?",
+    "gold_answer": "Romanian",
+    "context": [
+      {"title": "Bran Castle", "text": "Bran Castle is a medieval fortress located in Bran, Romania."},
+      {"title": "Romania", "text": "The official language of Romania is Romanian."}
+    ]
+  },
+  {
+    "qid": "hp82",
+    "difficulty": "medium",
+    "question": "What broader language family does the Portuguese language belong to?",
+    "gold_answer": "Indo-European",
+    "context": [
+      {"title": "Portuguese language", "text": "Portuguese is a Romance language spoken in Portugal and Brazil."},
+      {"title": "Romance languages", "text": "Romance languages are a branch of the Indo-European language family."}
+    ]
+  },
+  {
+    "qid": "hp83",
+    "difficulty": "easy",
+    "question": "What sea borders the country where the ruins of Carthage are found?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {"title": "Carthage", "text": "The ruins of ancient Carthage are located near Tunis, the capital of Tunisia."},
+      {"title": "Tunisia", "text": "Tunisia is bordered by the Mediterranean Sea to the north."}
+    ]
+  },
+  {
+    "qid": "hp84",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Notting Hill Carnival is held?",
+    "gold_answer": "London",
+    "context": [
+      {"title": "Notting Hill Carnival", "text": "The Notting Hill Carnival is an annual street festival held in the Notting Hill area of London, United Kingdom."},
+      {"title": "United Kingdom", "text": "London is the capital city of the United Kingdom."}
+    ]
+  },
+  {
+    "qid": "hp85",
+    "difficulty": "easy",
+    "question": "What ocean borders the country where sushi originated?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Sushi", "text": "Sushi is a traditional Japanese dish that originated in Japan."},
+      {"title": "Japan", "text": "Japan is an island nation bordered by the Pacific Ocean to the east."}
+    ]
+  },
+  {
+    "qid": "hp86",
+    "difficulty": "hard",
+    "question": "What ocean borders the country where Sikhism originated?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {"title": "Sikhism", "text": "Sikhism is a religion that originated in the Punjab region of the Indian subcontinent."},
+      {"title": "India", "text": "India is bordered by the Indian Ocean to the south."}
+    ]
+  },
+  {
+    "qid": "hp87",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where windmills are most iconic?",
+    "gold_answer": "Dutch",
+    "context": [
+      {"title": "Windmills", "text": "The Netherlands is world-famous for its historic windmills."},
+      {"title": "Netherlands", "text": "The official language of the Netherlands is Dutch."}
+    ]
+  },
+  {
+    "qid": "hp88",
+    "difficulty": "medium",
+    "question": "What continent contains the country where Marco Polo was born?",
+    "gold_answer": "Europe",
+    "context": [
+      {"title": "Marco Polo", "text": "Marco Polo was a Venetian merchant and explorer born in Venice, Italy."},
+      {"title": "Italy", "text": "Italy is a country located in Southern Europe."}
+    ]
+  },
+  {
+    "qid": "hp89",
+    "difficulty": "easy",
+    "question": "What ocean borders the country where the Maori people are indigenous?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Maori people", "text": "The Maori are the indigenous people of New Zealand."},
+      {"title": "New Zealand", "text": "New Zealand is an island country in the southwestern Pacific Ocean."}
+    ]
+  },
+  {
+    "qid": "hp90",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Marie Curie was born?",
+    "gold_answer": "Warsaw",
+    "context": [
+      {"title": "Marie Curie", "text": "Marie Curie was a physicist and chemist born in Warsaw, in the Kingdom of Poland."},
+      {"title": "Poland", "text": "Warsaw is the capital city of Poland."}
+    ]
+  },
+  {
+    "qid": "hp91",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where Tae Kwon Do originated?",
+    "gold_answer": "Seoul",
+    "context": [
+      {"title": "Tae Kwon Do", "text": "Tae Kwon Do is a Korean martial art that originated in South Korea."},
+      {"title": "South Korea", "text": "Seoul is the capital city of South Korea."}
+    ]
+  },
+  {
+    "qid": "hp92",
+    "difficulty": "hard",
+    "question": "What ocean borders the country where the Atlas Mountains are located?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {"title": "Atlas Mountains", "text": "The Atlas Mountains are a mountain range located primarily in Morocco, North Africa."},
+      {"title": "Morocco", "text": "Morocco borders the Atlantic Ocean to the west."}
+    ]
+  },
+  {
+    "qid": "hp93",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where the Hermitage Museum is located?",
+    "gold_answer": "Moscow",
+    "context": [
+      {"title": "Hermitage Museum", "text": "The Hermitage Museum is one of the world's largest art museums, located in Saint Petersburg, Russia."},
+      {"title": "Russia", "text": "Moscow is the capital city of Russia."}
+    ]
+  },
+  {
+    "qid": "hp94",
+    "difficulty": "medium",
+    "question": "What broader language family does the Spanish language belong to?",
+    "gold_answer": "Indo-European",
+    "context": [
+      {"title": "Spanish language", "text": "Spanish is a Romance language spoken in Spain and Latin America."},
+      {"title": "Romance languages", "text": "Romance languages form a branch of the Indo-European language family."}
+    ]
+  },
+  {
+    "qid": "hp95",
+    "difficulty": "easy",
+    "question": "What sea borders the country where Topkapi Palace is located?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {"title": "Topkapi Palace", "text": "Topkapi Palace is a historic palace located in Istanbul, Turkey."},
+      {"title": "Turkey", "text": "Turkey is bordered by the Black Sea to the north."}
+    ]
+  },
+  {
+    "qid": "hp96",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Polo sport originated?",
+    "gold_answer": "Tehran",
+    "context": [
+      {"title": "Polo", "text": "Polo is an ancient sport that originated in Persia, present-day Iran."},
+      {"title": "Iran", "text": "Tehran is the capital city of Iran."}
+    ]
+  },
+  {
+    "qid": "hp97",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Kung Fu originated?",
+    "gold_answer": "Asia",
+    "context": [
+      {"title": "Kung Fu", "text": "Kung Fu is a Chinese martial art that originated in China."},
+      {"title": "China", "text": "China is a country located in East Asia."}
+    ]
+  },
+  {
+    "qid": "hp98",
+    "difficulty": "hard",
+    "question": "What continent is home to the country where the Kalahari Desert is located?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Kalahari Desert", "text": "The Kalahari Desert is a large semi-arid desert primarily located in Botswana."},
+      {"title": "Botswana", "text": "Botswana is a landlocked country located in Southern Africa."}
+    ]
+  },
+  {
+    "qid": "hp99",
+    "difficulty": "easy",
+    "question": "What currency is used in the country where the Prado Museum is located?",
+    "gold_answer": "Euro",
+    "context": [
+      {"title": "Prado Museum", "text": "The Prado Museum is a major art museum located in Madrid, Spain."},
+      {"title": "Spain", "text": "Spain uses the Euro as its official currency."}
+    ]
+  },
+  {
+    "qid": "hp100",
+    "difficulty": "medium",
+    "question": "What ocean borders the country where the city of Dakar is located?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {"title": "Dakar", "text": "Dakar is the capital city of Senegal, located on the westernmost tip of Africa."},
+      {"title": "Senegal", "text": "Senegal borders the Atlantic Ocean to the west."}
+    ]
+  },
+  {
+    "qid": "hp101",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where the Bolshoi Ballet was founded?",
+    "gold_answer": "Russian",
+    "context": [
+      {"title": "Bolshoi Ballet", "text": "The Bolshoi Ballet is a historic ballet company founded in Moscow, Russia."},
+      {"title": "Russia", "text": "The official language of Russia is Russian."}
+    ]
+  },
+  {
+    "qid": "hp102",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Bolshoi Ballet is based?",
+    "gold_answer": "Moscow",
+    "context": [
+      {"title": "Bolshoi Ballet", "text": "The Bolshoi Ballet is a world-renowned ballet company based in Moscow, Russia."},
+      {"title": "Russia", "text": "Moscow is the capital city of Russia."}
+    ]
+  },
+  {
+    "qid": "hp103",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Haiku poetry originated?",
+    "gold_answer": "Asia",
+    "context": [
+      {"title": "Haiku", "text": "Haiku is a form of short poetry that originated in Japan."},
+      {"title": "Japan", "text": "Japan is an island country located in East Asia."}
+    ]
+  },
+  {
+    "qid": "hp104",
+    "difficulty": "hard",
+    "question": "What sea borders the country where the Alhambra fortress is located?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {"title": "Alhambra", "text": "The Alhambra is a palace and fortress complex located in Granada, in southern Spain."},
+      {"title": "Spain", "text": "Spain is bordered by the Mediterranean Sea to the south and east."}
+    ]
+  },
+  {
+    "qid": "hp105",
+    "difficulty": "easy",
+    "question": "What ocean borders the country where the Great Barrier Reef is located?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Great Barrier Reef", "text": "The Great Barrier Reef is located off the northeastern coast of Australia."},
+      {"title": "Australia", "text": "Australia is bordered by the Pacific Ocean to the east."}
+    ]
+  },
+  {
+    "qid": "hp106",
+    "difficulty": "medium",
+    "question": "What language family does the language of Iran belong to?",
+    "gold_answer": "Indo-European",
+    "context": [
+      {"title": "Iran", "text": "The official language of Iran is Persian, also known as Farsi."},
+      {"title": "Persian language", "text": "Persian is an Iranian language belonging to the Indo-European language family."}
+    ]
+  },
+  {
+    "qid": "hp107",
+    "difficulty": "easy",
+    "question": "What language is spoken in the country where the Alhambra was built?",
+    "gold_answer": "Spanish",
+    "context": [
+      {"title": "Alhambra", "text": "The Alhambra is a famous palace complex built in Granada, Spain."},
+      {"title": "Spain", "text": "The official language of Spain is Spanish."}
+    ]
+  },
+  {
+    "qid": "hp108",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where Leonardo da Vinci was born?",
+    "gold_answer": "Rome",
+    "context": [
+      {"title": "Leonardo da Vinci", "text": "Leonardo da Vinci was an Italian Renaissance polymath born in Vinci, a town in Tuscany, Italy."},
+      {"title": "Italy", "text": "Rome is the capital city of Italy."}
+    ]
+  },
+  {
+    "qid": "hp109",
+    "difficulty": "easy",
+    "question": "What is the capital of the country where Vodka was first distilled?",
+    "gold_answer": "Moscow",
+    "context": [
+      {"title": "Vodka", "text": "Vodka is a distilled beverage that originated in Russia."},
+      {"title": "Russia", "text": "Moscow is the capital city of Russia."}
+    ]
+  },
+  {
+    "qid": "hp110",
+    "difficulty": "hard",
+    "question": "What ocean borders the country where the Atacama Desert is located?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Atacama Desert", "text": "The Atacama Desert is a high-altitude desert plateau located in northern Chile."},
+      {"title": "Chile", "text": "Chile is a long, narrow country on the western coast of South America, bordered by the Pacific Ocean."}
+    ]
+  },
+  {
+    "qid": "hp111",
+    "difficulty": "easy",
+    "question": "What is the official language of the country where LEGO was invented?",
+    "gold_answer": "Danish",
+    "context": [
+      {"title": "LEGO", "text": "LEGO is a brand of plastic construction toys manufactured by the LEGO Group, a company based in Denmark."},
+      {"title": "Denmark", "text": "The official language of Denmark is Danish."}
+    ]
+  },
+  {
+    "qid": "hp112",
+    "difficulty": "medium",
+    "question": "What continent contains the country where the Niger River originates?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Niger River", "text": "The Niger River is the principal river of West Africa, originating in the highlands of Guinea."},
+      {"title": "Guinea", "text": "Guinea is a country located in West Africa."}
+    ]
+  },
+  {
+    "qid": "hp113",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Tea was first cultivated?",
+    "gold_answer": "Asia",
+    "context": [
+      {"title": "Tea", "text": "Tea is a beverage that was first cultivated and consumed in China."},
+      {"title": "China", "text": "China is the world's most populous country, located in East Asia."}
+    ]
+  },
+  {
+    "qid": "hp114",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Terracotta Army is located?",
+    "gold_answer": "Beijing",
+    "context": [
+      {"title": "Terracotta Army", "text": "The Terracotta Army is a collection of terracotta sculptures located near Xi'an, China."},
+      {"title": "China", "text": "Beijing is the capital city of China."}
+    ]
+  },
+  {
+    "qid": "hp115",
+    "difficulty": "easy",
+    "question": "What is the official language of the country where the Wizard of Oz was written?",
+    "gold_answer": "English",
+    "context": [
+      {"title": "The Wizard of Oz", "text": "The Wizard of Oz was written by L. Frank Baum, an American author, published in 1900."},
+      {"title": "United States", "text": "The de facto official language of the United States is English."}
+    ]
+  },
+  {
+    "qid": "hp116",
+    "difficulty": "hard",
+    "question": "What ocean borders the country where the Galapagos Islands are located?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {"title": "Galapagos Islands", "text": "The Galapagos Islands are an archipelago of volcanic islands belonging to Ecuador."},
+      {"title": "Ecuador", "text": "Ecuador is a country on the northwestern coast of South America, bordered by the Pacific Ocean."}
+    ]
+  },
+  {
+    "qid": "hp117",
+    "difficulty": "easy",
+    "question": "What continent is home to the country where Coffee was first discovered?",
+    "gold_answer": "Africa",
+    "context": [
+      {"title": "Coffee", "text": "Coffee was first discovered and cultivated in Ethiopia, according to historical accounts."},
+      {"title": "Ethiopia", "text": "Ethiopia is a country located in the Horn of Africa."}
+    ]
+  },
+  {
+    "qid": "hp118",
+    "difficulty": "medium",
+    "question": "What broader language family does Arabic belong to?",
+    "gold_answer": "Afro-Asiatic",
+    "context": [
+      {"title": "Arabic language", "text": "Arabic is a Semitic language spoken across the Arab world."},
+      {"title": "Semitic languages", "text": "Semitic languages are a branch of the larger Afro-Asiatic language family."}
+    ]
+  },
+  {
+    "qid": "hp119",
+    "difficulty": "easy",
+    "question": "What sea does the country where Reggae music originated border?",
+    "gold_answer": "Caribbean Sea",
+    "context": [
+      {"title": "Reggae", "text": "Reggae is a music genre that originated in Jamaica in the late 1960s."},
+      {"title": "Jamaica", "text": "Jamaica is an island country situated in the Caribbean Sea."}
+    ]
+  },
+  {
+    "qid": "hp120",
+    "difficulty": "hard",
+    "question": "What sea borders the country where the Transylvania region is located?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {"title": "Transylvania", "text": "Transylvania is a historical region located in central Romania."},
+      {"title": "Romania", "text": "Romania is bordered by the Black Sea to the east."}
     ]
   }
 ]
